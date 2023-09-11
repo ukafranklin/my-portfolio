@@ -12,7 +12,7 @@ const Services4 = ({serviceMB50}) => {
                 Best Features
               </h6>
               <h3 className="wow color-font">
-                We are a new digital product development agency
+                We are a new digital product development agencyg
               </h3>
             </div>
           </div>

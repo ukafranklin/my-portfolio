@@ -9,14 +9,14 @@ const FreelancreIntro = () => {
         <div className="row">
           <div className="col-lg-4">
             <div className="img">
-              <img src="/img/hero.jpg" alt="" />
+              <img src="/img/me.png" alt="" />
             </div>
           </div>
           <div className="col-lg-8 valign">
             <div className="cont">
               <h1 className="cd-headline clip">
-                Hello, my name is Franklin, an experienced Product Designer 
-                and also i create
+                Hello, I'm Franklin, an experienced Product Designer 
+                and I also create <br></br>
                 <span
                   style={{ fontSize: "35px", lineHeight: "49px" }}
                   className="cd-words-wrapper"
@@ -48,7 +48,7 @@ const FreelancreIntro = () => {
             <ul className="flex">
               <li className="flex">
                 <div className="numb valign">
-                  <h3>12</h3>
+                  <h3>4</h3>
                 </div>
                 <div className="text valign">
                   <p>
@@ -59,11 +59,11 @@ const FreelancreIntro = () => {
 
               <li className="flex">
                 <div className="numb valign">
-                  <h3>165</h3>
+                  <h3>35</h3>
                 </div>
                 <div className="text valign">
                   <p>
-                    Projects Completed <br /> In 19 Countries
+                    Projects Completed <br /> Globally
                   </p>
                 </div>
               </li>
@@ -74,7 +74,7 @@ const FreelancreIntro = () => {
                     <div className="text valign">
                       <div className="full-width">
                         <p>Get In Touch</p>
-                        <h6>Vie_Support@Gmail.Com</h6>
+                        <h6>hello@ndubu.Com</h6>
                       </div>
                     </div>
                     <div className="mail-icon">

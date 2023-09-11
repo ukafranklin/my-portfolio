@@ -16,10 +16,10 @@ const WorksStyle4 = () => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Portfolio
+                My Portfolio
               </h6>
               <h3 className="wow color-font">
-                Our Recent Web Design & <br /> Some Past Projects.
+                Recently Completed Design & <br /> and Web Projects.
               </h3>
             </div>
           </div>
@@ -32,9 +32,9 @@ const WorksStyle4 = () => {
               <span data-filter="*" className="active">
                 All
               </span>
-              <span data-filter=".brand">Branding</span>
-              <span data-filter=".web">Mobile App</span>
-              <span data-filter=".graphic">Creative</span>
+              <span data-filter=".brand">Product Design</span>
+              <span data-filter=".web">Websites</span>
+              <span data-filter=".graphic">Creatives</span>
             </div>
           </div>
 

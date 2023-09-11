@@ -9,7 +9,7 @@ const Services2 = () => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Features
+                Best Feature
               </h6>
               <h3 className="wow color-font">
                 We are a new digital product development agency

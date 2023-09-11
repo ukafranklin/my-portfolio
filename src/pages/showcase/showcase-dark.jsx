@@ -1,12 +1,12 @@
 import React from "react";
-import NavbarFullMenu from "../../components/Navbar-full-menu/navbar.full-menu";
+import Navbar from "../../components/Navbar/navbar";
 import ShowcasesFullScreen from "../../components/Showcases-full-screen/showcases-full-screen";
 import DarkTheme from "../../layouts/Dark";
 
 const ShowcaseDark = () => {
   return (
     <DarkTheme>
-      <NavbarFullMenu />
+      <Navbar />
       <ShowcasesFullScreen />
     </DarkTheme>
   );

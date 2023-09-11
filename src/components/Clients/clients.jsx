@@ -13,12 +13,11 @@ const Clients = ({theme}) => {
           <div className="col-lg-4 valign md-mb50">
             <div className="sec-head mb-0">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Features
+                MY TOOLS
               </h6>
-              <h3 className="wow mb-20 color-font">Our Clients</h3>
+              <h3 className="wow mb-20 color-font">Softwares</h3>
               <p>
-                Our area of practice is quite wide: design, graphics, branding,
-                development.
+                Here are some of the designsoftwares I am very proficient in.
               </p>
             </div>
           </div>

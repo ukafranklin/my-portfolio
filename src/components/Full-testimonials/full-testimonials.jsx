@@ -54,7 +54,7 @@ class FullTestimonials extends React.Component {
                     Testimonials
                   </h6>
                   <h3 className="wow color-font">
-                    We love our clients from all over the world.
+                    Feedback from clients and colleagues.
                   </h3>
                 </div>
               </div>
@@ -107,20 +107,43 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="/img/clients/andrew.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Alex Regelman
+                        Andrew Cheung
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          COO, OMNI Agency
                         </span>
                       </div>
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
+                  Franklin's strong work ethic is truly commendable. 
+                  He consistently goes the extra mile, exhibiting unwavering dedication 
+                  to delivering exceptional results.
+                  </p>
+                </div>
+                <div className="item">
+                  <div className="info valign">
+                    <div className="cont">
+                      <div className="author">
+                      <div className="img">
+                          <img src="/img/clients/aa.jpg" alt="" />
+                        </div>
+                        <h6 className="author-name color-font">
+                          Adebayo Adeleke
+                        </h6>
+                        <span className="author-details">
+                          Founder, Adebayo Adeleke LLC
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                  It is safe to say that my organization will not be where it is 
+                  today without the creative input and value driven contributions 
+                  of Franklin. 
                   </p>
                 </div>
                 <div className="item">
@@ -128,20 +151,21 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="/img/clients/emma.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Alex Regelman
+                          Emmanuel Nwanja
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          CEO, VitroWire
                         </span>
                       </div>
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
+                  What sets Franklin apart is his adaptability and eagerness 
+                  to stay at the forefront of design trends and technological 
+                  advancements.
                   </p>
                 </div>
                 <div className="item">
@@ -149,41 +173,20 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="/img/clients/tommy.jpg" alt="" />
                         </div>
                         <h6 className="author-name color-font">
-                          Alex Regelman
+                          Unyime Tommy
                         </h6>
                         <span className="author-details">
-                          Co-founder, Colabrio
+                          Managing Partner, Assurdly
                         </span>
                       </div>
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
-                  </p>
-                </div>
-                <div className="item">
-                  <div className="info valign">
-                    <div className="cont">
-                      <div className="author">
-                        <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
-                        </div>
-                        <h6 className="author-name color-font">
-                          Alex Regelman
-                        </h6>
-                        <span className="author-details">
-                          Co-founder, Colabrio
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
+                  He is a true professional, and I have no doubt that he 
+                  would make a valuable asset to any team.
                   </p>
                 </div>
               </Slider>
