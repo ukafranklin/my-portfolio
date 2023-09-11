@@ -15,8 +15,8 @@ const FreelancreIntro = () => {
           <div className="col-lg-8 valign">
             <div className="cont">
               <h1 className="cd-headline clip">
-                Hello, My name is hisham i love design and i hope to make
-                awesome designs and also i create a
+                Hello, my name is Franklin, an experienced Product Designer 
+                and also i create
                 <span
                   style={{ fontSize: "35px", lineHeight: "49px" }}
                   className="cd-words-wrapper"
@@ -25,9 +25,9 @@ const FreelancreIntro = () => {
                     options={{
                       wrapperClassName: "color-font fw-600",
                       strings: [
-                        "Mobile Apps",
+                        "Webflow Websites",
+                        "Brand Identity Designs",
                         "Landing Pages",
-                        "Awesome Design",
                       ],
                       autoStart: true,
                       loop: true,
