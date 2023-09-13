@@ -23,47 +23,22 @@ const VideoWithTestimonials = () => {
     <section className="block-sec">
       <div
         className="background bg-img pt-100 pb-0 parallaxie"
-        style={{ backgroundImage: `url(/img/bg-vid.jpg)` }}
+        style={{ backgroundImage: `url(/img/DiscordBanner.gif)` }}
         data-overlay-dark="5"
       >
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <div className="vid-area">
-                <span className="text">Watch Video</span>
-                <div className="vid-icon">
-                  {typeof window !== "undefined" && (
-                    <ModalVideo
-                      channel="vimeo"
-                      isOpen={isOpen}
-                      videoId="127203262"
-                      onClose={() => setOpen(false)}
-                    />
-                  )}
-                  <a
-                    className="vid"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      setOpen(true);
-                    }}
-                  >
-                    <div className="vid-butn">
-                      <span className="icon">
-                        <i className="fas fa-play"></i>
-                      </span>
-                    </div>
-                  </a>
-                </div>
-              </div>
+ 
             </div>
             <div className="col-lg-5 offset-lg-1">
               <div className="testim-box">
                 <div className="head-box">
                   <h6 className="wow fadeIn" data-wow-delay=".5s">
-                    Our Clients
+                    FEEDBACKS
                   </h6>
                   <h4 className="wow fadeInLeft" data-wow-delay=".5s">
-                    What Client&apos;s Say?
+                    What Clients Say?
                   </h4>
                 </div>
                 <Slider
@@ -73,21 +48,21 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    It is safe to say that my organization will not be where it is 
+                  today without the creative input and value driven contributions 
+                  of Franklin. 
                     </p>
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="/img/clients/AA.jpg" alt="" />
                         </div>
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
+                          <h6 className="author-name ">Adebayo Adeleke</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            Founder, Adebayo Adeleke LLC
                           </span>
                         </div>
                       </div>
@@ -95,21 +70,21 @@ const VideoWithTestimonials = () => {
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    Franklin's strong work ethic is truly commendable. 
+                  He consistently goes the extra mile, exhibiting unwavering dedication 
+                  to delivering exceptional results.
                     </p>
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <img src="/img/clients/2.jpg" alt="" />
+                          <img src="/img/clients/andrew.jpg" alt="" />
                         </div>
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
+                          <h6 className="author-name ">Andrew Cheung</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            COO, OMNI Agency
                           </span>
                         </div>
                       </div>
@@ -117,21 +92,20 @@ const VideoWithTestimonials = () => {
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    He is a true professional, and I have no doubt that he 
+                  would make a valuable asset to any team.
                     </p>
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <img src="/img/clients/3.jpg" alt="" />
+                          <img src="/img/clients/tommy.jpg" alt="" />
                         </div>
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
+                          <h6 className="author-name ">Unyime Tommy</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                          Managing Partner, Assurdly
                           </span>
                         </div>
                       </div>

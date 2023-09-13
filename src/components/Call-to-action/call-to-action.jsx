@@ -32,7 +32,7 @@ const CallToAction = ({img}) => {
                   className="butn bord curve wow fadeInUp"
                   data-wow-delay=".5s"
                 >
-                  <span>Get In Touch</span>
+                  <span>Send an email</span>
                 </a>
               </Link>
             </div>

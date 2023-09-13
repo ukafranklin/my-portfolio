@@ -292,6 +292,7 @@ span:hover {
 
 .sub-bg {
   background: #18191d;
+  padding-top: 120px;
 }
 
 .bg-img {
@@ -8777,7 +8778,7 @@ footer .item .copy-right p a {
   }
 
   .pages-header {
-    padding: 120px 0 80px;
+    padding: 80px 0 0px;
     overflow-x: hidden;
   }
 
@@ -9299,6 +9300,35 @@ section.next-prog.section-padding {
   }
 
 
+  .mt-100 {
+    margin-top: 0px !important;
+  }
+
+
+  .pages-header {
+    min-height: 50vh;
+    padding: 100px 0 0;
+    position: relative;
+  }
+
+  .skills-circle {
+    visibility: hidden;    
+    padding-bottom: 0 !important;
+  }
+
+
+  .sub-bg {
+    padding: 30px;
+  }
+
+  .min-area .img {
+    padding: 30px 0;
+  }
+
+
+  .call-action .content h2 {
+    line-height: 1.6;
+  }
 
 
 }

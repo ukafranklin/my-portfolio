@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon": "pe-7s-users",
+        "title": "Research and Analysis",
+        "content": "This involves collecting data and feedback from potential users, analyzing market trends, and defining the project goals and objectives."
+    },
+    {
+        "id": 2,
+        "icon": "pe-7s-pen",
+        "title": "Design and Prototyping",
+        "content": "Creating design concepts and prototypes to determine whether the design meets the needs and expectations of the target audience."
+    },
+    {
+        "id": 3,
+        "icon": "pe-7s-phone",
+        "title": "Testing and Feedback",
+        "content": "Gathering user feedback to validate the design concepts. And making modifications to the design where necessary to improve its usability."
+    },
+    {
+        "id": 4,
+        "icon": "pe-7s-rocket",
+        "title": "Launch and Refinement",
+        "content": "Product monitoring after launch. Gather more feedback, make further improvements and enhance the overall user experience over time."
+    }
+]

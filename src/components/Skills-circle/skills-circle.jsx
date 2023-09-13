@@ -29,34 +29,12 @@ const SkillsCircle = ({ from, theme }) => {
               <div className="row">
                 <div className="col-md-6">
                   <div className="item wow fadeInLeft" data-wow-delay=".6">
-                    <div className="skill">
-                      <CircularProgressbar
-                        value={90}
-                        strokeWidth={2}
-                        text={`${90}%`}
-                        styles={cpStyle}
-                      />
-                    </div>
-                    <div className="cont">
-                      <span>Project</span>
-                      <h6>Consulting</h6>
-                    </div>
+                    
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="item wow fadeInLeft" data-wow-delay=".3">
-                    <div className="skill">
-                      <CircularProgressbar
-                        value={75}
-                        strokeWidth={2}
-                        text={`${75}%`}
-                        styles={cpStyle}
-                      />
-                    </div>
-                    <div className="cont">
-                      <span>App</span>
-                      <h6>Development</h6>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
