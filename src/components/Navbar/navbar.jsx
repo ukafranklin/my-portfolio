@@ -36,17 +36,17 @@ const Navbar = ({ lr, nr, theme }) => {
           <ul className="navbar-nav ml-auto">
 
             <li className="nav-item">
-              <Link href={`/showcase/showcase-dark`}>
+              <Link href={`/featured`}>
                 <a className="nav-link">Featured</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href={`/works2/works2-dark`}>
+              <Link href={`/works`}>
                 <a className="nav-link">My Works</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href={`/about/about-dark`}>
+              <Link href={`/about`}>
                 <a className="nav-link">About</a>
               </Link>
             </li>
