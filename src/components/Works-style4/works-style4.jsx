@@ -19,7 +19,7 @@ const WorksStyle4 = () => {
                 My Portfolio
               </h6>
               <h3 className="wow color-font">
-                Recently Completed Design & <br /> and Web Projects.
+                Recently Completed Design <br /> and Web Projects.
               </h3>
             </div>
           </div>

@@ -1,26 +1,30 @@
 [
     {
         "id": 1,
-        "title": {"first": "Midnight", "second": "Snack"},
-        "image": "/img/portfolio/full/1.jpg",
-        "sub": "Design"
+        "title": {"first": "Difa", "second": "Mobile App"},
+        "image": "/img/portfolio/full/difa.jpg",
+        "sub": "Design",
+        "url": "/work3"
     },
     {
       "id": 2,
-      "title": { "first": "Fisherman", "second": "Portrait" },
-      "image": "/img/portfolio/full/2.jpg",
-      "sub": "Design"
+      "title": { "first": "Nigerian Navy", "second": "SBS Website" },
+      "image": "/img/portfolio/full/sbss.jpg",
+      "sub": "Design",
+      "url": "/work2"
     },
     {
       "id": 3,
-      "title": { "first": "Tribos", "second": "Urbanas" },
-      "image": "/img/portfolio/full/3.jpg",
-      "sub": "Design"
+      "title": { "first": "RouteWatche", "second": "App & Website" },
+      "image": "/img/portfolio/full/rw.jpg",
+      "sub": "Design",
+      "url": "/work4"
     },
     {
       "id": 4,
-      "title": { "first": "Monsoon", "second": "in the city" },
-      "image": "/img/portfolio/full/4.jpg",
-      "sub": "Design"
+      "title": { "first": "Tempo", "second": "Football App" },
+      "image": "/img/portfolio/full/temp.jpg",
+      "sub": "Design",
+      "url": "/work7"
     }
 ]

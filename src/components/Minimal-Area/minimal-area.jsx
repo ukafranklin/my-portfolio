@@ -55,7 +55,7 @@ const MinimalArea = () => {
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".6s">
                   <h6>
-                    <span>4</span> Webflow & Wordpress Developer
+                    <span>4</span> Website Developer
                   </h6>
                   <p>
                   AmaZix |  December 2021 – July 2023
