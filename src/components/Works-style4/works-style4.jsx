@@ -50,7 +50,7 @@ const WorksStyle4 = () => {
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/1.jpg" alt="image" />
+                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -79,7 +79,7 @@ const WorksStyle4 = () => {
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/2.jpg" alt="image" />
+                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -108,7 +108,7 @@ const WorksStyle4 = () => {
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/3.jpg" alt="image" />
+                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -137,7 +137,7 @@ const WorksStyle4 = () => {
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/4.jpg" alt="image" />
+                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -166,7 +166,7 @@ const WorksStyle4 = () => {
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/5.jpg" alt="image" />
+                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -195,7 +195,7 @@ const WorksStyle4 = () => {
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/6.jpg" alt="image" />
+                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>

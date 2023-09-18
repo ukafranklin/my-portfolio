@@ -47,9 +47,9 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                 <span data-filter="*" className="active">
                   All
                 </span>
-                <span data-filter=".brand">Branding</span>
-                <span data-filter=".web">Mobile App</span>
-                <span data-filter=".graphic">Creative</span>
+                <span data-filter=".brand">Product Design</span>
+                <span data-filter=".web">Websites</span>
+                <span data-filter=".graphic">Creatives</span>
               </div>
             </div>
           )}
@@ -68,13 +68,13 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
+                    <img src="/img/portfolio/portfolio/1/Difa.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
               </div>
               <div className="cont">
-                <h6>Creativity Demand</h6>
+                <h6>Difa Mobile App</h6>
                 <span>
                   <Link href="/works3/works3-dark">Design</Link>,
                   <Link href="/works3/works3-dark">WordPress</Link>
@@ -95,7 +95,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
+                    <img src="/img/portfolio/portfolio/1/Difa.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -122,7 +122,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/3.jpg" alt="image" />
+                    <img src="/img/portfolio/portfolio/1/Difa.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -149,7 +149,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/4.jpg" alt="image" />
+                    <img src="/img/portfolio/portfolio/1/Difa.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -176,7 +176,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/5.jpg" alt="image" />
+                    <img src="/img/portfolio/portfolio/1/Difa.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -203,7 +203,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
+                    <img src="/img/portfolio/portfolio/1/Difa.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
