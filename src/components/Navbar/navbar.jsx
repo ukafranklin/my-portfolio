@@ -50,6 +50,11 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">About</a>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link href={`https://drive.google.com/file/d/1hO0ZpYBmnNJfsS6LghRRbAmnnTja3m0R/view?usp=sharing`}>
+                <a className="nav-link" target="_blank">My Resume</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
