@@ -7,8 +7,10 @@ const WorksStyle4 = () => {
   React.useEffect(() => {
     setTimeout(() => {
       initIsotope();
-    }, 1000);
+    }, 50);
   }, []);
+
+
   return (
     <section className="portfolio-frl section-padding pb-70">
       <div className="container">
@@ -29,8 +31,7 @@ const WorksStyle4 = () => {
         <div className="row">
           <div className="filtering col-12">
             <div className="filter wow fadeIn" data-wow-delay=".5s">
-
-              <span data-filter=".brand" className="active">Product Design</span>
+              <span data-filter=".product" className="active">Product Design</span>
               <span data-filter=".web">Websites</span>
               <span data-filter=".graphic">Creatives</span>
             </div>
@@ -53,38 +54,6 @@ const WorksStyle4 = () => {
               </div>
             </div>
 
-            <div
-              className="col-md-6 items graphic lg-mr wow fadeInUp"
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <div className="cont">
-                  <h6>X-Space Design</h6>
-                  <p>Wagmi Games</p>
-                </div>
-                  <a className="rota">
-                    <img src="/img/portfolio/freelancer/cr2.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-              </div>
-            </div>
-
-
-            <div
-              className="col-md-6 items graphic lg-mr wow fadeInUp"
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <div className="cont">
-                  <h6>Post Design</h6>
-                  <p>PIP</p>
-                </div>
-                  <a className="rota">
-                    <img src="/img/portfolio/freelancer/cr3.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-              </div>
-            </div>
 
             <div
               className="col-md-6 items graphic lg-mr wow fadeInUp"
@@ -178,24 +147,24 @@ const WorksStyle4 = () => {
             >
               <div className="item-img">
                 <div className="cont">
-                  <h6>Creative Mobile App</h6>
-                  <p>Ui / Ux creative mobile app design</p>
+                  <h6>Uforika</h6>
+                  <p>Framer Website</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="rota">
+                <Link href={`https://circle-regulate-597221.framer.app`}>
+                  <a className="rota" target="_blank">
                     <img src="/img/portfolio/freelancer/w1.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/works2/works2-dark">Web3</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/works2/works2-dark">Metaverse</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/works2/works2-dark">Gaming</Link>
                   </span>
                 </div>
               </div>
@@ -207,86 +176,29 @@ const WorksStyle4 = () => {
             >
               <div className="item-img">
                 <div className="cont">
-                  <h6>Creative Mobile App</h6>
-                  <p>Ui / Ux creative mobile app design</p>
+                  <h6>BestSlr</h6>
+                  <p>Wordpress | Elementor Website</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="rota">
+                <Link href={`https://bestslr.com/`}>
+                  <a className="rota" target="_blank">
                     <img src="/img/portfolio/freelancer/w2.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/works2/works2-dark">Brand</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/works2/works2-dark">Influencer</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/works2/works2-dark">Marketing</Link>
                   </span>
                 </div>
               </div>
             </div>
 
-            <div
-              className="col-md-6 items web wow fadeInUp"
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <div className="cont">
-                  <h6>Creative Mobile App</h6>
-                  <p>Ui / Ux creative mobile app design</p>
-                </div>
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="rota">
-                    <img src="/img/portfolio/freelancer/ww3.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-                <div className="tags">
-                  <span>
-                    <Link href="/works2/works2-dark">App</Link>
-                  </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
-                  </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="col-md-6 items web wow fadeInUp"
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <div className="cont">
-                  <h6>Creative Mobile App</h6>
-                  <p>Ui / Ux creative mobile app design</p>
-                </div>
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="rota">
-                    <img src="/img/portfolio/freelancer/ww4.png" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-                <div className="tags">
-                  <span>
-                    <Link href="/works2/works2-dark">App</Link>
-                  </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
-                  </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
-                  </span>
-                </div>
-              </div>
-            </div>
 
 
             <div
@@ -295,24 +207,24 @@ const WorksStyle4 = () => {
             >
               <div className="item-img">
                 <div className="cont">
-                  <h6>Creative Mobile App</h6>
-                  <p>Ui / Ux creative mobile app design</p>
+                  <h6>Omni Agency</h6>
+                  <p>Webflow Website</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="rota">
+                <Link href={`https://omniagency.ca/`}>
+                  <a className="rota" target="_blank">
                     <img src="/img/portfolio/freelancer/w5.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/works2/works2-dark">Web3</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/works2/works2-dark">Marketing</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/works2/works2-dark">Crypto</Link>
                   </span>
                 </div>
               </div>
@@ -324,24 +236,24 @@ const WorksStyle4 = () => {
             >
               <div className="item-img">
                 <div className="cont">
-                  <h6>Creative Mobile App</h6>
-                  <p>Ui / Ux creative mobile app design</p>
+                  <h6>Emerge</h6>
+                  <p>Wix Website</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="rota">
+                <Link href={`https://emerge.partners/`}>
+                  <a className="rota" target="_blank">
                     <img src="/img/portfolio/freelancer/w6.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/works2/works2-dark">Invest</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/works2/works2-dark">Web3</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/works2/works2-dark">Portfolio</Link>
                   </span>
                 </div>
               </div>
@@ -349,7 +261,7 @@ const WorksStyle4 = () => {
 
 
             <div
-              className="col-md-6 items brand wow fadeInUp"
+              className="col-md-6 items product wow fadeInUp"
               data-wow-delay=".4s"
             >
               <div className="item-img">
@@ -376,6 +288,161 @@ const WorksStyle4 = () => {
                 </div>
               </div>
             </div>
+
+
+            <div
+              className="col-md-6 items product wow fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <div className="cont">
+                  <h6>Creative Mobile App</h6>
+                  <p>Ui / Ux creative mobile app design</p>
+                </div>
+                <Link href={`/project-details2/project-details2-dark`}>
+                  <a className="rota">
+                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+                <div className="tags">
+                  <span>
+                    <Link href="/works2/works2-dark">App</Link>
+                  </span>
+                  <span>
+                    <Link href="/works2/works2-dark">Fitnes</Link>
+                  </span>
+                  <span>
+                    <Link href="/works2/works2-dark">Creative</Link>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div
+              className="col-md-6 items product wow fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <div className="cont">
+                  <h6>Creative Mobile App</h6>
+                  <p>Ui / Ux creative mobile app design</p>
+                </div>
+                <Link href={`/project-details2/project-details2-dark`}>
+                  <a className="rota">
+                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+                <div className="tags">
+                  <span>
+                    <Link href="/works2/works2-dark">App</Link>
+                  </span>
+                  <span>
+                    <Link href="/works2/works2-dark">Fitnes</Link>
+                  </span>
+                  <span>
+                    <Link href="/works2/works2-dark">Creative</Link>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+
+            <div
+              className="col-md-6 items product wow fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <div className="cont">
+                  <h6>Creative Mobile App</h6>
+                  <p>Ui / Ux creative mobile app design</p>
+                </div>
+                <Link href={`/project-details2/project-details2-dark`}>
+                  <a className="rota">
+                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+                <div className="tags">
+                  <span>
+                    <Link href="/works2/works2-dark">App</Link>
+                  </span>
+                  <span>
+                    <Link href="/works2/works2-dark">Fitnes</Link>
+                  </span>
+                  <span>
+                    <Link href="/works2/works2-dark">Creative</Link>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+
+          
+            <div
+              className="col-md-6 items product wow fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <div className="cont">
+                  <h6>Creative Mobile App</h6>
+                  <p>Ui / Ux creative mobile app design</p>
+                </div>
+                <Link href={`/project-details2/project-details2-dark`}>
+                  <a className="rota">
+                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+                <div className="tags">
+                  <span>
+                    <Link href="/works2/works2-dark">App</Link>
+                  </span>
+                  <span>
+                    <Link href="/works2/works2-dark">Fitnes</Link>
+                  </span>
+                  <span>
+                    <Link href="/works2/works2-dark">Creative</Link>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+
+            <div
+              className="col-md-6 items product wow fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <div className="cont">
+                  <h6>Creative Mobile App</h6>
+                  <p>Ui / Ux creative mobile app design</p>
+                </div>
+                <Link href={`/project-details2/project-details2-dark`}>
+                  <a className="rota">
+                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+                <div className="tags">
+                  <span>
+                    <Link href="/works2/works2-dark">App</Link>
+                  </span>
+                  <span>
+                    <Link href="/works2/works2-dark">Fitnes</Link>
+                  </span>
+                  <span>
+                    <Link href="/works2/works2-dark">Creative</Link>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>

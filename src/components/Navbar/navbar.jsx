@@ -41,11 +41,6 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href={`/works`}>
-                <a className="nav-link">My Works</a>
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link href={`/about`}>
                 <a className="nav-link">About</a>
               </Link>

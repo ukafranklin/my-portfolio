@@ -109,6 +109,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               </div>
             </div>
 
+
             <div
               className={`${
                 grid === 3
