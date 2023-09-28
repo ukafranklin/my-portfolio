@@ -20,13 +20,13 @@
     {
         "id": 4,
         "lightImage": "/img/clients/brands/light/04.png",
-        "darkImage": "/img/clients/brands/dark/Sketch.png",
+        "darkImage": "/img/clients/brands/dark/sketch.png",
         "url": "Sketch"
     },
     {
         "id": 5,
         "lightImage": "/img/clients/brands/light/05.png",
-        "darkImage": "/img/clients/brands/dark/Slack.png",
+        "darkImage": "/img/clients/brands/dark/slack.png",
         "url": "Slack"
     },
     {

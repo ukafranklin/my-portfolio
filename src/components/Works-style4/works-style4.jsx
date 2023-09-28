@@ -157,14 +157,11 @@ const WorksStyle4 = () => {
                   </a>
                 </Link>
                 <div className="tags">
-                  <span>
-                    <Link href="/works2/works2-dark">Web3</Link>
+                  <span>Web3
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Metaverse</Link>
+                  <span>Metaverse
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Gaming</Link>
+                  <span>Gaming
                   </span>
                 </div>
               </div>
@@ -186,14 +183,11 @@ const WorksStyle4 = () => {
                   </a>
                 </Link>
                 <div className="tags">
-                  <span>
-                    <Link href="/works2/works2-dark">Brand</Link>
+                  <span>Brand
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Influencer</Link>
+                  <span>Influencer
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Marketing</Link>
+                  <span>Marketing
                   </span>
                 </div>
               </div>
@@ -217,14 +211,11 @@ const WorksStyle4 = () => {
                   </a>
                 </Link>
                 <div className="tags">
-                  <span>
-                    <Link href="/works2/works2-dark">Web3</Link>
+                  <span>Web3
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Marketing</Link>
+                  <span>Marketing
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Crypto</Link>
+                  <span>Crypto
                   </span>
                 </div>
               </div>
@@ -246,14 +237,11 @@ const WorksStyle4 = () => {
                   </a>
                 </Link>
                 <div className="tags">
-                  <span>
-                    <Link href="/works2/works2-dark">Invest</Link>
+                  <span>Invest
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Web3</Link>
+                  <span>>Web3
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Portfolio</Link>
+                  <span>Portfolio
                   </span>
                 </div>
               </div>
@@ -269,21 +257,18 @@ const WorksStyle4 = () => {
                   <h6>RouteWatche</h6>
                   <p>Website and Mobile App UI/UX</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project/routewatche`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/RW1.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
-                  <span>
-                    <Link href="/works2/works2-dark">Security</Link>
+                  <span>Security
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Incident</Link>
+                  <span>Incident
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Safety</Link>
+                  <span>Safety
                   </span>
                 </div>
               </div>
@@ -299,21 +284,18 @@ const WorksStyle4 = () => {
                   <h6>DataNexi</h6>
                   <p>Website and Mobile App UI/UX</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project/datanexi`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/DN1.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
-                  <span>
-                    <Link href="/works2/works2-dark">Data</Link>
+                  <span>Data
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Statistics</Link>
+                  <span>Statistics
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Report</Link>
+                  <span>Report
                   </span>
                 </div>
               </div>
@@ -331,21 +313,18 @@ const WorksStyle4 = () => {
                   <h6>Adebayo Adeleke</h6>
                   <p>Website UI/UX</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project/adebayo`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/AA1.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
-                  <span>
-                    <Link href="/works2/works2-dark">Consulting</Link>
+                  <span>Consulting
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Supply Chain</Link>
+                  <span>Supply Chain
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Geopolitics</Link>
+                  <span>Geopolitics
                   </span>
                 </div>
               </div>
@@ -361,21 +340,18 @@ const WorksStyle4 = () => {
                   <h6>Vsion</h6>
                   <p>Mobile App UI/UX</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project/vsion`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/vs1.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
-                  <span>
-                    <Link href="/works2/works2-dark">Movies</Link>
+                  <span>Movies
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Streaming</Link>
+                  <span>Streaming
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">TV Shows</Link>
+                  <span>TV Shows
                   </span>
                 </div>
               </div>
@@ -392,21 +368,18 @@ const WorksStyle4 = () => {
                   <h6>Difa</h6>
                   <p>Mobile App UI/UX</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project/difa`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
-                  <span>
-                    <Link href="/works2/works2-dark">Finances</Link>
+                  <span>Finances
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Savings</Link>
+                  <span>Savings
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Wallet</Link>
+                  <span>Wallet
                   </span>
                 </div>
               </div>
@@ -422,21 +395,18 @@ const WorksStyle4 = () => {
                   <h6>Tempo</h6>
                   <p>Mobile App UI/UX</p>
                 </div>
-                <Link href={`/project-details2/project-details2-dark`}>
+                <Link href={`/project/tempo`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/TE1.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
-                  <span>
-                    <Link href="/works2/works2-dark">Football</Link>
+                  <span>Football
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Community</Link>
+                  <span>Community
                   </span>
-                  <span>
-                    <Link href="/works2/works2-dark">Fixtures</Link>
+                  <span>Fixtures
                   </span>
                 </div>
               </div>
