@@ -266,24 +266,24 @@ const WorksStyle4 = () => {
             >
               <div className="item-img">
                 <div className="cont">
-                  <h6>Creative Mobile App</h6>
-                  <p>Ui / Ux creative mobile app design</p>
+                  <h6>RouteWatche</h6>
+                  <p>Website and Mobile App UI/UX</p>
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
+                    <img src="/img/portfolio/freelancer/RW1.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/works2/works2-dark">Security</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/works2/works2-dark">Incident</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/works2/works2-dark">Safety</Link>
                   </span>
                 </div>
               </div>
@@ -296,24 +296,24 @@ const WorksStyle4 = () => {
             >
               <div className="item-img">
                 <div className="cont">
-                  <h6>Creative Mobile App</h6>
-                  <p>Ui / Ux creative mobile app design</p>
+                  <h6>DataNexi</h6>
+                  <p>Website and Mobile App UI/UX</p>
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
+                    <img src="/img/portfolio/freelancer/DN1.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/works2/works2-dark">Data</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/works2/works2-dark">Statistics</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/works2/works2-dark">Report</Link>
                   </span>
                 </div>
               </div>
@@ -328,24 +328,24 @@ const WorksStyle4 = () => {
             >
               <div className="item-img">
                 <div className="cont">
-                  <h6>Creative Mobile App</h6>
-                  <p>Ui / Ux creative mobile app design</p>
+                  <h6>Adebayo Adeleke</h6>
+                  <p>Website UI/UX</p>
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
+                    <img src="/img/portfolio/freelancer/AA1.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/works2/works2-dark">Consulting</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/works2/works2-dark">Supply Chain</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/works2/works2-dark">Geopolitics</Link>
                   </span>
                 </div>
               </div>
@@ -358,24 +358,24 @@ const WorksStyle4 = () => {
             >
               <div className="item-img">
                 <div className="cont">
-                  <h6>Creative Mobile App</h6>
-                  <p>Ui / Ux creative mobile app design</p>
+                  <h6>Vsion</h6>
+                  <p>Mobile App UI/UX</p>
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
+                    <img src="/img/portfolio/freelancer/vs1.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/works2/works2-dark">Movies</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/works2/works2-dark">Streaming</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/works2/works2-dark">TV Shows</Link>
                   </span>
                 </div>
               </div>
@@ -389,8 +389,8 @@ const WorksStyle4 = () => {
             >
               <div className="item-img">
                 <div className="cont">
-                  <h6>Creative Mobile App</h6>
-                  <p>Ui / Ux creative mobile app design</p>
+                  <h6>Difa</h6>
+                  <p>Mobile App UI/UX</p>
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
@@ -400,13 +400,13 @@ const WorksStyle4 = () => {
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/works2/works2-dark">Finances</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/works2/works2-dark">Savings</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/works2/works2-dark">Wallet</Link>
                   </span>
                 </div>
               </div>
@@ -419,24 +419,24 @@ const WorksStyle4 = () => {
             >
               <div className="item-img">
                 <div className="cont">
-                  <h6>Creative Mobile App</h6>
-                  <p>Ui / Ux creative mobile app design</p>
+                  <h6>Tempo</h6>
+                  <p>Mobile App UI/UX</p>
                 </div>
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
+                    <img src="/img/portfolio/freelancer/TE1.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
                   <span>
-                    <Link href="/works2/works2-dark">App</Link>
+                    <Link href="/works2/works2-dark">Football</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Fitnes</Link>
+                    <Link href="/works2/works2-dark">Community</Link>
                   </span>
                   <span>
-                    <Link href="/works2/works2-dark">Creative</Link>
+                    <Link href="/works2/works2-dark">Fixtures</Link>
                   </span>
                 </div>
               </div>
