@@ -239,7 +239,7 @@ const WorksStyle4 = () => {
                 <div className="tags">
                   <span>Invest
                   </span>
-                  <span>>Web3
+                  <span>Web3
                   </span>
                   <span>Portfolio
                   </span>
@@ -255,9 +255,9 @@ const WorksStyle4 = () => {
               <div className="item-img">
                 <div className="cont">
                   <h6>RouteWatche</h6>
-                  <p>Website and Mobile App UI/UX</p>
+                  <p>Personal safety app in Nigeria</p>
                 </div>
-                <Link href={`/project/routewatche`}>
+                <Link href={`https://emerge.partners/`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/RW1.png" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -282,9 +282,9 @@ const WorksStyle4 = () => {
               <div className="item-img">
                 <div className="cont">
                   <h6>DataNexi</h6>
-                  <p>Website and Mobile App UI/UX</p>
+                  <p>Data collection and insights platform</p>
                 </div>
-                <Link href={`/project/datanexi`}>
+                <Link href={`https://emerge.partners/`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/DN1.png" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -310,21 +310,21 @@ const WorksStyle4 = () => {
             >
               <div className="item-img">
                 <div className="cont">
-                  <h6>Adebayo Adeleke</h6>
-                  <p>Website UI/UX</p>
+                  <h6>Straw</h6>
+                  <p>Personalized savings and budgeting app</p>
                 </div>
-                <Link href={`/project/adebayo`}>
+                <Link href={`https://emerge.partners/`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/AA1.png" alt="image" />
+                    <img src="/img/portfolio/freelancer/straw.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
                 <div className="tags">
-                  <span>Consulting
+                  <span>Savings
                   </span>
-                  <span>Supply Chain
+                  <span>Wallet
                   </span>
-                  <span>Geopolitics
+                  <span>Budget
                   </span>
                 </div>
               </div>
@@ -338,9 +338,9 @@ const WorksStyle4 = () => {
               <div className="item-img">
                 <div className="cont">
                   <h6>Vsion</h6>
-                  <p>Mobile App UI/UX</p>
+                  <p>Movie streaming app for friends</p>
                 </div>
-                <Link href={`/project/vsion`}>
+                <Link href={`https://emerge.partners/`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/vs1.png" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -366,9 +366,9 @@ const WorksStyle4 = () => {
               <div className="item-img">
                 <div className="cont">
                   <h6>Difa</h6>
-                  <p>Mobile App UI/UX</p>
+                  <p>Digital financial assistant</p>
                 </div>
-                <Link href={`/project/difa`}>
+                <Link href={`https://emerge.partners/`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -393,9 +393,9 @@ const WorksStyle4 = () => {
               <div className="item-img">
                 <div className="cont">
                   <h6>Tempo</h6>
-                  <p>Mobile App UI/UX</p>
+                  <p>Online community for football fans</p>
                 </div>
-                <Link href={`/project/tempo`}>
+                <Link href={`https://emerge.partners/`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/TE1.png" alt="image" />
                     <div className="item-img-overlay"></div>

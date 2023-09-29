@@ -78,8 +78,8 @@ const ShowcasesFullScreen = () => {
           >
             {ShowcassesFullScreenData.map((slide) => (
               <SwiperSlide key={slide.id} className="swiper-slide">
-                <div
-                  className="bg-img valign"
+                <div 
+                  className="bg-img valign" 
                   style={{ backgroundImage: `url(${slide.image})` }}
                   data-overlay-dark="4"
                 >
@@ -88,9 +88,8 @@ const ShowcasesFullScreen = () => {
                       <div className="col-lg-12">
                         <div className="caption">
                           <h1>
-                            <Link href= {`${slide.url}`}
-                            >
-                              <a>
+                          <Link href={`http://sbs.navy.mil.ng/`}>
+                              <a target="_blank">
                                 <div
                                   className="stroke"
                                   data-swiper-parallax="-2000"
@@ -106,11 +105,11 @@ const ShowcasesFullScreen = () => {
                           </h1>
                           <div className="discover">
                             <Link
-                              href={`/works`}
+                              href={`http://sbs.navy.mil.ng/`}
                             >
-                              <a>
+                              <a target="_blank">
                                 <span>
-                                  Explore <br /> More
+                                  Learn <br /> More
                                 </span>
                               </a>
                             </Link>

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const ProjectDetails2Header = ({ projectHeaderData }) => {
+const RouteWatcheHeader = ({ projectHeaderData }) => {
   return (
     <section
       className="page-header proj-det bg-img parallaxie valign"
@@ -72,4 +72,4 @@ const ProjectDetails2Header = ({ projectHeaderData }) => {
   );
 };
 
-export default ProjectDetails2Header;
+export default RouteWatcheHeader;
