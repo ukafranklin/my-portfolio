@@ -315,7 +315,7 @@ const WorksStyle4 = () => {
                 </div>
                 <Link href={`#`}>
                   <a className="rota">
-                    <img src="/img/portfolio/freelancer/straw.png" alt="image" />
+                    <img src="/img/portfolio/freelancer/Straw.png" alt="image" />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
