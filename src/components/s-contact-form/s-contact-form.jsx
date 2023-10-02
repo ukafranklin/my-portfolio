@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import { Formik, Form, Field } from "formik";
+
+import emailjs from '@emailjs/browser';
+
+
+
 
 const SContactForm = ({ noLine }) => {
   const messageRef = React.useRef(null);
+  const form = useRef()
+  const [success, setSuccess] = useState(false)
   function validateEmail(value) {
     let error;
     if (!value) {
@@ -13,6 +20,28 @@ const SContactForm = ({ noLine }) => {
     return error;
   }
   const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
+  const sendEmail = () => {
+
+  emailjs
+    .sendForm(
+      "service_udxazzi",
+      "template_mhna9xq",
+      form.current,
+      "LxWDlGGXmd0DaWWRH"
+    )
+    .then(
+      (result) => {
+        if (result.status === 200) {
+          setSuccess(true);
+        }
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+
+};
+
   return (
     <section className="contact-sec section-padding position-re">
       <div className="container">
@@ -28,55 +57,69 @@ const SContactForm = ({ noLine }) => {
             </div>
           </div>
         </div>
+
+
+
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="form wow fadeInUp" data-wow-delay=".5s">
+
+
+
               <Formik
                 initialValues={{
                   name: "",
                   email: "",
                   message: "",
                 }}
-                onSubmit={async (values) => {
-                  await sendMessage(500);
-                  alert(JSON.stringify(values, null, 2));
-                  // show message
+                onSubmit={(values) => {
+                  sendEmail()
 
-                  messageRef.current.innerText =
-                    "Your Message has been successfully sent. I will contact you soon.";
+               
                   // Reset the values
-                  values.name = "";
-                  values.email = "";
+                  values.user_name = "";
+                  values.user_email = "";
                   values.message = "";
                   // clear message
-                  setTimeout(() => {
-                    messageRef.current.innerText = "";
-                  }, 2000);
+                  setSuccess(false)
+            
                 }}
               >
                 {({ errors, touched }) => (
-                  <Form id="contact-form">
-                    <div className="messages" ref={messageRef}></div>
+
+
+
+
+                  <Form id="contact-form" ref={form}>
+                    <div className="messages">{success ? "Message sent successfully" : ""}</div>
                     <div className="controls">
                       <div className="row">
+
+
+
+
+
                         <div className="col-lg-6">
                           <div className="form-group">
                             <Field
-                              id="form_name"
+                              id="name"
                               type="text"
-                              name="name"
+                              name="user_name"
                               placeholder="Name"
                               required="required"
                             />
                           </div>
                         </div>
+
+
+
                         <div className="col-lg-6">
                           <div className="form-group">
                             <Field
                               validate={validateEmail}
-                              id="form_email"
+                              id="email"
                               type="email"
-                              name="email"
+                              name="user_email"
                               placeholder="Email"
                               required="required"
                             />
@@ -86,11 +129,13 @@ const SContactForm = ({ noLine }) => {
                           </div>
                         </div>
 
+
+
                         <div className="col-12">
                           <div className="form-group">
                             <Field
                               as="textarea"
-                              id="form_message"
+                              id="message"
                               name="message"
                               placeholder="Message"
                               rows="4"
@@ -98,6 +143,17 @@ const SContactForm = ({ noLine }) => {
                             />
                           </div>
                         </div>
+
+
+
+
+
+
+
+
+
+
+
                         <div className="col-12">
                           <div className="text-center">
                             <button
