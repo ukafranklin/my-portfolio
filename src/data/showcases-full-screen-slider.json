@@ -4,27 +4,20 @@
         "title": {"first": "Difa", "second": "Mobile App"},
         "image": "/img/portfolio/full/difa.jpg",
         "sub": "Design",
-        "url": "/project/difa"
-    },
-    {
-      "id": 2,
-      "title": { "first": "Nigerian Navy", "second": "SBS Website" },
-      "image": "/img/portfolio/full/sbss.jpg",
-      "sub": "Design",
-      "url": "http://sbs.navy.mil.ng/"
+        "url": "#"
     },
     {
       "id": 3,
       "title": { "first": "RouteWatche", "second": "App & Website" },
       "image": "/img/portfolio/full/rw.jpg",
       "sub": "Design",
-      "url": "/project/routewatche"
+      "url": "#"
     },
     {
       "id": 4,
       "title": { "first": "Tempo", "second": "Football App" },
       "image": "/img/portfolio/full/temp.jpg",
       "sub": "Design",
-      "url": "/project/tempo"
+      "url": "#"
     }
 ]

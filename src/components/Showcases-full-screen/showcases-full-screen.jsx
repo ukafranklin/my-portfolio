@@ -88,8 +88,8 @@ const ShowcasesFullScreen = () => {
                       <div className="col-lg-12">
                         <div className="caption">
                           <h1>
-                          <Link href={`http://sbs.navy.mil.ng/`}>
-                              <a target="_blank">
+                          <Link href={`${slide.url}`}>
+                              <a>
                                 <div
                                   className="stroke"
                                   data-swiper-parallax="-2000"
@@ -105,9 +105,9 @@ const ShowcasesFullScreen = () => {
                           </h1>
                           <div className="discover">
                             <Link
-                              href={`http://sbs.navy.mil.ng/`}
+                              href={`${slide.url}`}
                             >
-                              <a target="_blank">
+                              <a>
                                 <span>
                                   Learn <br /> More
                                 </span>

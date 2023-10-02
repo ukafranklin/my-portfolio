@@ -257,7 +257,7 @@ const WorksStyle4 = () => {
                   <h6>RouteWatche</h6>
                   <p>Personal safety app in Nigeria</p>
                 </div>
-                <Link href={`https://emerge.partners/`}>
+                <Link href={`#`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/RW1.png" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -284,7 +284,7 @@ const WorksStyle4 = () => {
                   <h6>DataNexi</h6>
                   <p>Data collection and insights platform</p>
                 </div>
-                <Link href={`https://emerge.partners/`}>
+                <Link href={`#`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/DN1.png" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -313,7 +313,7 @@ const WorksStyle4 = () => {
                   <h6>Straw</h6>
                   <p>Personalized savings and budgeting app</p>
                 </div>
-                <Link href={`https://emerge.partners/`}>
+                <Link href={`#`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/straw.png" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -340,7 +340,7 @@ const WorksStyle4 = () => {
                   <h6>Vsion</h6>
                   <p>Movie streaming app for friends</p>
                 </div>
-                <Link href={`https://emerge.partners/`}>
+                <Link href={`#`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/vs1.png" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -368,7 +368,7 @@ const WorksStyle4 = () => {
                   <h6>Difa</h6>
                   <p>Digital financial assistant</p>
                 </div>
-                <Link href={`https://emerge.partners/`}>
+                <Link href={`#`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/Difa2.png" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -395,7 +395,7 @@ const WorksStyle4 = () => {
                   <h6>Tempo</h6>
                   <p>Online community for football fans</p>
                 </div>
-                <Link href={`https://emerge.partners/`}>
+                <Link href={`#`}>
                   <a className="rota">
                     <img src="/img/portfolio/freelancer/TE1.png" alt="image" />
                     <div className="item-img-overlay"></div>
