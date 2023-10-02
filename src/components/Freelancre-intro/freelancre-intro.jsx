@@ -69,7 +69,7 @@ const FreelancreIntro = () => {
               </li>
 
               <li className="mail-us">
-                <a href="mailto:hello@ndubu.com?subject=Subject">
+                <a href="mailto:ukafrank@gmail.com?subject=Subject">
                   <div className="flex">
                     <div className="text valign">
                       <div className="full-width">
